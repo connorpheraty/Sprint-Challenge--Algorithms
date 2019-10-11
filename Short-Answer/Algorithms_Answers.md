@@ -12,3 +12,5 @@ c) The output of this function increases by the same amount (2) given each addit
 ## Exercise II
 
 For this problem I am assuming that their is an optimal floor f that can be found that reduces the amount of eggs thrown / broken. I would first split the entire building in half and throw an egg from that floor. If it is broken, I would split the lower half of the building into another half and repeat the process. If the egg is not broken, we would split the upper half of the split building and repeat the process. We do this until an optimal floor f is found.
+
+This solution is an example of a binary search tree with O(log n) time complexity.
